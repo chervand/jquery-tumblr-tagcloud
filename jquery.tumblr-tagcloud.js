@@ -98,7 +98,7 @@
               href: settings.url + '/tagged/' + t.original,
               title: t.original + ' [' + t.count + ']'
             })
-            .css('font-size', 100 + t.count + '%')
+            .css('font-size', 100 + t.count*10 + '%')
             .html('#' + t.original)
         );
       });
