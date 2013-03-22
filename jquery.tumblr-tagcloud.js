@@ -96,10 +96,10 @@
           jQuery('<a>')
             .attr({
               href: settings.url + '/tagged/' + t.original,
-              title: t.original + '[' + t.count + ']'
+              title: t.original + ' [' + t.count + ']'
             })
             .css('font-size', 100 + t.count + '%')
-            .html(t.original)
+            .html('#' + t.original)
         );
       });
       
